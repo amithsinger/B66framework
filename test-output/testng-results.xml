@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Open the browser:chrome]]>
+    </line>
+    <line>
+      <![CDATA[Enter the URL:http://www.google.com]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the browser]]>
+    </line>
+    <line>
+      <![CDATA[Set the TimeOut:10]]>
+    </line>
+    <line>
+      <![CDATA[Google]]>
+    </line>
+    <line>
+      <![CDATA[XL:Bhanu]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-14T08:40:48 IST" name="Suite" finished-at="2023-02-14T08:40:54 IST" duration-ms="6853">
+    <groups>
+    </groups>
+    <test started-at="2023-02-14T08:40:48 IST" name="Test" finished-at="2023-02-14T08:40:54 IST" duration-ms="6853">
+      <class name="scripts.TestCase1">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.TestCase1@1623b78d]" started-at="2023-02-14T08:40:48 IST" name="openApp" finished-at="2023-02-14T08:40:53 IST" duration-ms="5130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Open the browser:chrome]]>
+            </line>
+            <line>
+              <![CDATA[Enter the URL:http://www.google.com]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the browser]]>
+            </line>
+            <line>
+              <![CDATA[Set the TimeOut:10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testA()[pri:0, instance:scripts.TestCase1@1623b78d]" started-at="2023-02-14T08:40:53 IST" name="testA" finished-at="2023-02-14T08:40:54 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+            <line>
+              <![CDATA[XL:Bhanu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.TestCase1@1623b78d]" started-at="2023-02-14T08:40:54 IST" name="closeApp" finished-at="2023-02-14T08:40:54 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
