@@ -43,7 +43,7 @@ public class BaseTest
 		long intTimeout = Long.parseLong(timeout);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(intTimeout));
 		wait=new WebDriverWait(driver, Duration.ofSeconds(intTimeout));
-		
+//		selenium workspace
 	}
 	
 	
