@@ -36,6 +36,5 @@ public class ValidLogin extends BaseTest
 		
 //		I Have to raise pr	
 //		in github
-//		Also added one command
 	}
 }
