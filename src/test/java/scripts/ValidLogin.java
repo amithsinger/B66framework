@@ -33,7 +33,4 @@ public class ValidLogin extends BaseTest
 		
 		//true-HP P-Pass, false-HPNP-Fail
 		Assert.assertEquals(result, true);
-		
-//		This is trying 2nd pr
-	}
-}
+
